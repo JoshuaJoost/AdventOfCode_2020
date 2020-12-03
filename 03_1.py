@@ -1,6 +1,6 @@
 fileInput = []
 
-with open("03_input") as f:
+with open("AdventOfCode_2020\\03_input") as f:
     fileInput = list(map(str, f.readlines()))
 
 startingPosition = [0,0]
